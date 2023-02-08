@@ -1,0 +1,40 @@
+10 Comandos de Git Que Todo Desarrollador Debería Saber
+
+https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-deberia-saber/
+
+git clone <https://link-con-nombre-del-repositorio>
+
+git branch <nombre-de-la-rama>
+
+git push <nombre-remoto> <nombre-rama>
+
+git branch
+
+git branch --list
+
+Borrar una rama:
+
+git branch -d <nombre-de-la-rama>
+
+git checkout <nombre-de-la-rama>
+
+git checkout -b <nombre-de-tu-rama>
+
+git status
+
+git add <archivo>
+
+git commit -m "mensaje de confirmación"
+
+git push <nombre-remoto> <nombre-de-tu-rama>
+
+git push --set-upstream <nombre-remoto> <nombre-de-tu-rama>
+
+git push -u origin <nombre-de-tu-rama>
+
+git pull <nombre-remoto>
+
+git revert 3321844
+
+git checkout dev
+
